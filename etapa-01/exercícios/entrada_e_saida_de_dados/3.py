@@ -2,4 +2,4 @@
 
 idade = int(input("Digite sua idade: "))
 
-print("Daqui a dez anos, você tera", (idade + 10), "anos.")
+print(f"Daqui a dez anos, você terá {idade + 10} anos.")

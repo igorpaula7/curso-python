@@ -2,4 +2,4 @@
 
 verdadeiro = True
 
-print("A variável verdadeiro tem o tipo: ", type(verdadeiro))
+print(f"A variável verdadeiro tem o tipo: {type(verdadeiro)}")

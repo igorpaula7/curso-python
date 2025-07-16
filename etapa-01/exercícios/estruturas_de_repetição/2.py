@@ -3,8 +3,8 @@
 a = int(input("Informe um número: "))
 contador = 1
 
-print("Tabuada do", a)
+print(f"Tabuada do {a}")
 
 while contador <= 10:
-    print(a, "x", contador, "=", (a * contador))
+    print(f"{a} x {contador} = {a * contador}")
     contador = contador + 1

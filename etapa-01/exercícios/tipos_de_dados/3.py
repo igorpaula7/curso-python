@@ -6,4 +6,4 @@
 
 pessoa = {"nome": "João", "idade": 25, "altura": 1.75}
 
-print(pessoa["nome"], "tem", pessoa["idade"], "anos e", pessoa["altura"], "m de altura")
+print(f"{pessoa["nome"]} tem {pessoa["idade"]} anos e {pessoa["altura"]}m de altura.")

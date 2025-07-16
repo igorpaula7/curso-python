@@ -3,4 +3,4 @@
 a = input("Informe uma palavra")
 tamanho = len(a)
 
-print("A palavra tem", tamanho, "letras.")
+print(f"A palavra tem {tamanho} letras.")

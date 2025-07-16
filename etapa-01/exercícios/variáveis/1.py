@@ -4,4 +4,4 @@ nome = "João"
 idade = 25
 cidade = "Londres"
 
-print("Olá, meu nome é", nome, "tenho", idade, "anos e moro em", cidade)
+print(f"Olá, meu nome é {nome}, tenho {idade} anos e moro em {cidade}")

@@ -2,9 +2,9 @@
 
 nota = float(input("Qual foi sua nota? "))
 
-if nota >= 7:
+if nota >= 7: 
     print("Você foi aprovado.")
-elif (5 <= nota <= 6.9):
-    print("Você está de recuperação")
+elif nota >=5: 
+    print("Você está de recuperação.")
 else: 
-    print("Você foi reprovado")
+    print("Você foi reprovado.")
