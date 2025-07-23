@@ -4,7 +4,10 @@ def adicionar_ou_alterar(nome, numero):
     contatos[nome] = numero
 
 def listar():
-    print(contatos)
+    for nome, telefone in contatos.items():
+        print(f"Nome: {nome}")
+        print(f"Telefone: {telefone}")
+        print("-----------")
 
 def remover(nome):
     del contatos[nome]

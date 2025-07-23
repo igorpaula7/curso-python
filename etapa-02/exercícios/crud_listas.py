@@ -8,9 +8,9 @@ def listar():
     for fruta in frutas:
        print(fruta)
        
-def atualizar(antigo, indice_antigo, novo):
-    indice_antigo = frutas.index(antigo)
-    frutas[indice_antigo] = novo
+def atualizar(fruta_alterar_antiga, indice_fruta_alterar_antiga, fruta_alterar_nova):
+    indice_fruta_alterar_antiga = frutas.index(fruta_alterar_antiga)
+    frutas[indice_fruta_alterar_antiga] = fruta_alterar_nova
 
 def remover(fruta):
     frutas.remove(fruta)
