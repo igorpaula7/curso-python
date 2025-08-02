@@ -3,7 +3,7 @@
 usuarios_registrados = []
 
 def criar_perfis(**dados):
-    
+
     registro = {}
 
     for chave, valor in dados.items():
@@ -11,7 +11,20 @@ def criar_perfis(**dados):
     
     usuarios_registrados.append(registro)
 
-criar_perfis(nome = "João", idade = 20)
-criar_perfis(nome = "Carolina", idade = 27)
+continuar = "sim"
 
+print("Bem vindo ao Registro de Usuários")
+print("/"*20)
+
+while continuar == "sim":
+
+    nome = input("Insira o nome do seu usuário: ")
+    idade = int(input("Insira a idade do seu usuário: "))
+    email = input("Insira o e-mail do seu usuário: ")
+
+    criar_perfis(nome = nome, idade = idade, email = email)
+
+    continuar = input("Deseja adicionar mais algum usuário? (sim / não)")
+
+print("Os seguintes usuários foram registrados: ")
 print(usuarios_registrados)
