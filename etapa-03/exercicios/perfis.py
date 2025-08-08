@@ -2,11 +2,11 @@
 
 usuarios_registrados = []
 
-def criar_perfis(**dados):
+def criar_perfis(**kwargs):
 
     registro = {}
 
-    for chave, valor in dados.items():
+    for chave, valor in kwargs.items():
         registro[chave] = valor
     
     usuarios_registrados.append(registro)

@@ -28,7 +28,7 @@ def calcular_com_galoes(tinta):
 
 def calcular_melhor_custo(tinta):
     
-    menor_custo = 999999999999999999999999999999999
+    menor_custo = float('inf')
     menos_latas = 0
     menos_galoes = 0
     
